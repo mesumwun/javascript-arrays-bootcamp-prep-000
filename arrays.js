@@ -19,4 +19,12 @@ function addElementToEndOfArray(array, element) {
   return newArray;
 }
 
-function destructivelyAddElementToBeginningOfArray
+function destructivelyAddElementToEndOfArray(array, element) {
+  return array.push(element);
+}
+
+function accessElementInArray(arr, idx) {
+  return arr[idx];
+}
+
+function 
